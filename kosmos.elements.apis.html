@@ -1,0 +1,1130 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>kosmos.elements.apis &mdash; kosmos 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="kosmos.elements.clusters" href="kosmos.elements.clusters.html" />
+    <link rel="prev" title="kosmos.elements" href="kosmos.elements.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> kosmos
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">kosmos</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="kosmos.html">kosmos</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="kosmos.elements.html">kosmos.elements</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">kosmos.elements.apis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.clusters.html">kosmos.elements.clusters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.dbs.html">kosmos.elements.dbs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.ui_ux.html">kosmos.elements.ui_ux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">kosmos</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">kosmos</a> &raquo;</li>
+        
+          <li><a href="kosmos.html">kosmos</a> &raquo;</li>
+        
+          <li><a href="kosmos.elements.html">kosmos.elements</a> &raquo;</li>
+        
+      <li>kosmos.elements.apis</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/kosmos.elements.apis.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kosmos-elements-apis">
+<h1>kosmos.elements.apis<a class="headerlink" href="#kosmos-elements-apis" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-kosmos.elements.apis.rest_initiator">
+<span id="apis-rest-initiator"></span><h2>apis.rest_initiator<a class="headerlink" href="#module-kosmos.elements.apis.rest_initiator" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator">
+<em class="property">class </em><code class="sig-prename descclassname">kosmos.elements.apis.rest_initiator.</code><code class="sig-name descname">RestInitiator</code><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This class provides methods to build a URI using base_url, path params and query params.</div>
+<div class="line">This class allows user to modify path params and query params existing in an URI</div>
+<div class="line">This class also let’s user call a web service request.</div>
+</div>
+</dd>
+</dl>
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_add_path_parameters">
+<code class="sig-name descname">km_add_path_parameters</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em>, <em class="sig-param">pstr_path_parameters</em>, <em class="sig-param">bln_encode=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_add_path_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method adds Path Parameters to the base URL and returns the final URL</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_url</strong> (<em>String</em>) – url for which path parameters need to be added</p></li>
+<li><p><strong>pstr_path_parameters</strong> (<em>String</em>) – parameters that need to be added</p></li>
+<li><p><strong>bln_encode</strong> (<em>bool</em>) – False will add the parameters as it is True replaces special characters in the url using %xx escape. Letters, digits and characters ‘_._’ are never quoted</p></li>
+<li><p><strong>kwargs</strong> (<a href="#id3"><span class="problematic" id="id4">**</span></a>kwargs) – <a href="#id1"><span class="problematic" id="id2">**</span></a>kwargs takes one key to specify if you want to replace or append a parameter Accepted value: replace_Params - False by default. True if you want to replace a parameter</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>str_url_with_params - string URL with parameters</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">1. add_path_parameters(“<a class="reference external" href="https://www.samplesite.com">https://www.samplesite.com</a>”, “param1/param2”)  returns <a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a></div>
+<div class="line">2. add_path_parameters(“<a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a>”, “param3”) returns <a class="reference external" href="https://www.samplesite.com/param1/param2/param3">https://www.samplesite.com/param1/param2/param3</a></div>
+<div class="line">3. add_path_parameters(“<a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a>”, “param3”, pbln_replace_params=True) returns <a class="reference external" href="https://www.samplesite.com/param3">https://www.samplesite.com/param3</a></div>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">Default value of <a href="#id5"><span class="problematic" id="id6">**</span></a>kwargs parameter replace_Params is False</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_add_query_parameters">
+<code class="sig-name descname">km_add_query_parameters</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em>, <em class="sig-param">pdict_params={}</em>, <em class="sig-param">pbln_encode=False</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_add_query_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method adds Query Parameters to the base URL and returns the final URL</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_url</strong> (<em>String</em>) – URL value for which Query parameter needs to be added</p></li>
+<li><p><strong>pdict_params</strong> (<em>Dictionary</em>) – Key Value dictionary that need to be added as parameters. Refer examples for more info.</p></li>
+<li><p><strong>pbln_encode</strong> (<em>bool</em>) – Encode Type</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>str_url_with_params</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">1. add_query_parameters(“<a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a>”) returns <a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a></div>
+<div class="line">2. add_query_parameters(“<a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a>”, {“name”:”abc”,”id”:”123”}) returns <a class="reference external" href="https://www.samplesite.com/param1/param2?name=abc&amp;id=123">https://www.samplesite.com/param1/param2?name=abc&amp;id=123</a></div>
+<div class="line">3. add_query_parameters(“<a class="reference external" href="https://www.samplesite.com">https://www.samplesite.com</a>”, {“name”:”abc”,”id”:”123”}) returns <a class="reference external" href="https://www.samplesite.com/?name=abc&amp;id=123">https://www.samplesite.com/?name=abc&amp;id=123</a></div>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">pbln_encode (bool) –</div>
+<div class="line">False will add the parameters as it is</div>
+<div class="line">True replaces special characters in the url using</div>
+<div class="line">%xx escape. Letters, digits and characters ‘_._’</div>
+<div class="line">are never quoted</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_call_request">
+<code class="sig-name descname">km_call_request</code><span class="sig-paren">(</span><em class="sig-param">pstr_method</em>, <em class="sig-param">pstr_url</em>, <em class="sig-param">pdict_headers</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_call_request" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method allows user to call a Get/Post/Put/Post/Patch/Delete request</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_method</strong> (<em>String</em>) – Type of request. Get or Post etc..</p></li>
+<li><p><strong>pstr_url</strong> (<em>String</em>) – Request URL</p></li>
+<li><p><strong>pdict_headers</strong> (<em>dictionary</em>) – Headers to call a request</p></li>
+<li><p><strong>pstr_json</strong> (<em>String</em>) – json string</p></li>
+<li><p><strong>pstr_payload</strong> (<em>dictionary</em>) – payload dictionary</p></li>
+<li><p><strong>pdict_cookies</strong> (<em>dictionary</em>) – cookie dictionary</p></li>
+<li><p><strong>pbln_allow_redirects</strong> (<em>boolean</em>) – </p></li>
+<li><p><strong>pstr_files</strong> (<em>String</em>) – file path</p></li>
+<li><p><strong>pbln_verify</strong> (<em>boolean</em>) – </p></li>
+<li><p><strong>pstr_auth_type</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_auth_username</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_auth_password</strong> (<em>String</em>) – </p></li>
+<li><p><strong>ptimeout</strong> (<em>float</em><em> or </em><em>tuple</em>) – (optional) How long to wait for the server to send
+data before giving up, as a float, or a <span class="xref std std-ref">(connect timeout,
+read timeout)</span> tuple.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>response - response generated on calling a request</p>
+</dd>
+</dl>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>call_request(“Get”,”https://www.samplesite.com/param1/param2”,headers={“Accept”:”application/json”})
+call_request(“Post”,”https://www.samplesite.com/param1/param2”,headers={“Accept”:”application/json”},pstr_payload=’{“KOU”:”123456”}’, pbln_allow_redirects=True)
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">pstr_method (String) :</div>
+<div class="line">Accepts: Get, Post,Put, Patch or Delete</div>
+<div class="line">Correct: get/GET/Get</div>
+<div class="line">Wrong: gEt/GEt</div>
+<div class="line"><br /></div>
+<div class="line">pstr_auth_type(String) :</div>
+<div class="line">Accepts: basic, ntlm, digest, proxy</div>
+<div class="line"><br /></div>
+<div class="line">Default Values for Kwargs:</div>
+<div class="line">1. Default value of <a href="#id7"><span class="problematic" id="id8">**</span></a>kwargs parameter pstr_json is None</div>
+<div class="line">2. Default value of <a href="#id9"><span class="problematic" id="id10">**</span></a>kwargs parameter pstr_payload is None</div>
+<div class="line">3. Default value of <a href="#id11"><span class="problematic" id="id12">**</span></a>kwargs parameter pdict_cookies is empty dict({})</div>
+<div class="line">4. Default value of <a href="#id13"><span class="problematic" id="id14">**</span></a>kwargs parameter pbln_allow_redirects is False</div>
+<div class="line">5. Default value of <a href="#id15"><span class="problematic" id="id16">**</span></a>kwargs parameter pstr_files is None</div>
+<div class="line">6. Default value of <a href="#id17"><span class="problematic" id="id18">**</span></a>kwargs parameter pbln_verify is False</div>
+<div class="line">7. Default value of <a href="#id19"><span class="problematic" id="id20">**</span></a>kwargs parameter ptimeout is None</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_compress_data_with_gzip">
+<code class="sig-name descname">km_compress_data_with_gzip</code><span class="sig-paren">(</span><em class="sig-param">pstr_data</em>, <em class="sig-param">pint_compresslevel=9</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_compress_data_with_gzip" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method compresses string data into GZIP bytes.</div>
+<div class="line">Optional argument is the compression level, in range of 0-9.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_data</strong> (<em>String</em>) – pstr_data is the uncompressed string data</p></li>
+<li><p><strong>pint_compresslevel</strong> (<em>int</em>) – Optional argument is the compression level, in range of 0-9. Default level is set to 9.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>bytes</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_decode_url">
+<code class="sig-name descname">km_decode_url</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_decode_url" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method decodes the url</div>
+<div class="line">This replaces %xx characters with their corresponding Letters/digits/special characters</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_url</strong> (<em>String</em>) – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Decoded URL</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_decompress_data_with_gzip">
+<code class="sig-name descname">km_decompress_data_with_gzip</code><span class="sig-paren">(</span><em class="sig-param">pbytes_data</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_decompress_data_with_gzip" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method decompresses a GZIP byte into a string.</div>
+<div class="line">Return the decompressed string.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pbytes_data</strong> (<em>bytes</em>) – pbytes_data is the compressed string data</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>String</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_encode_url">
+<code class="sig-name descname">km_encode_url</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_encode_url" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method encodes the url</div>
+<div class="line">This replaces special characters in string using the %xx escape.</div>
+<div class="line">Letters, digits, and the characters ‘_.-‘ are never quoted</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_url</strong> (<em>String</em>) – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>encoded URL</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_fetch_path_parameters_from_url">
+<code class="sig-name descname">km_fetch_path_parameters_from_url</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_fetch_path_parameters_from_url" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns path parameters/endpoint present in a URL</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_url</strong> (<em>String</em>) – Returns Endpoint / path parameters that are in the URL</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>str_path_params - returns path parameters</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_fetch_query_parameters_from_url">
+<code class="sig-name descname">km_fetch_query_parameters_from_url</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em>, <em class="sig-param">pstr_return_type='text'</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_fetch_query_parameters_from_url" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns the query parameter that are contained in the URL</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_url</strong> (<em>String</em>) – url for which the query parameter needs to be fetched</p></li>
+<li><p><strong>pstr_return_type</strong> (<em>String</em>) – Expected return type to choose from text or dictionary.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dict_query_params</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">Accepted values  for pstr_return_type (String) :</div>
+<div class="line"><br /></div>
+<div class="line">1. Text - to return query parameters as string</div>
+<div class="line">2. dict - to return query parametes as dictionary</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_generate_headers_from_string">
+<code class="sig-name descname">km_generate_headers_from_string</code><span class="sig-paren">(</span><em class="sig-param">pstr_header_string</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_generate_headers_from_string" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This Method converts the headers string to a dictionary.</div>
+<div class="line">you need to send header key and values with separators and mention those separators in the <a href="#id21"><span class="problematic" id="id22">**</span></a>kwargs parameters as shown in example</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_header_string</strong> (<em>String</em>) – header string</p></li>
+<li><p><strong>kwargs</strong> (<a href="#id23"><span class="problematic" id="id24">**</span></a>kwargs) – kwargs to send one or more delimiters</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dict_headers</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">1. generate_headers_from_string(“name:abc,age:50”) - No Kwargs hence default delimiters will be used.</div>
+<div class="line">2. generate_headers_from_string(“name:abc#age:50”, pstr_headers_delimiter=”#”) - default delimiter for values will be used.</div>
+<div class="line">3. generate_headers_from_string(“name#abc,age#50”, pstr_values_delimiter=”#”) - default delimiter for headers will be used.</div>
+<div class="line">4. generate_headers_from_string(“name#abc;age#50”, pstr_headers_delimiter=”;”, pstr_values_delimiter=”#”) - delimiters from parameters will be used.</div>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line"><a href="#id25"><span class="problematic" id="id26">**</span></a>kwargs accepts the below values as its keys.</div>
+<div class="line">1. Key : pstr_headers_delimiter, default value : comma (,)</div>
+<div class="line">2. Key : pstr_values_delimiter, default value : colon (:)</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_get_base_url_from_uri">
+<code class="sig-name descname">km_get_base_url_from_uri</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_get_base_url_from_uri" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method fetches base url from a URI</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_url</strong> (<em>String</em>) – URL string</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>str_base_url</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">Input: <a class="reference external" href="https://www.samplesite.com/param1/param2?name=abc&amp;id=123">https://www.samplesite.com/param1/param2?name=abc&amp;id=123</a></div>
+<div class="line">Output: <a class="reference external" href="https://www.samplesite.com">https://www.samplesite.com</a></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_contenttype">
+<code class="sig-name descname">km_get_response_contenttype</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_contenttype" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This Method returns the content type of a response</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobj_response_obj</strong> (<em>Object</em>) – Response Object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Content-Type</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_cookies">
+<code class="sig-name descname">km_get_response_cookies</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_cookies" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This Method returns cookies of a response in a dictionary format</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobj_response_obj</strong> (<em>Object</em>) – Response Object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>cookies - cookies of the response</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_headers">
+<code class="sig-name descname">km_get_response_headers</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_headers" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This Method returns headers of a response in a dictionary format</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobj_response_obj</strong> (<em>Object</em>) – Response Object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>headers - in dictionary format.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_statuscode">
+<code class="sig-name descname">km_get_response_statuscode</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_statuscode" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns status code of the response that is passed</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobj_response_obj</strong> (<em>Object</em>) – Response object whose status code is needed</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>status code integer</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_time">
+<code class="sig-name descname">km_get_response_time</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em>, <em class="sig-param">pstr_format='%s.%S'</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_get_response_time" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns response time in 3 different formats based on pstr_format.</div>
+<div class="line">When</div>
+<div class="line">(1) pstr_format == “%s.%f” then response time will be in the form of seconds and microseconds</div>
+<div class="line">(2) pstr_format == “%s.%S” then response time will be in the form of seconds and milliseconds</div>
+<div class="line">(3) pstr_format == “%M.%s” then response time will be in the form of minutes and seconds</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pobj_response_obj</strong> (<em>Response Object</em>) – </p></li>
+<li><p><strong>pstr_format</strong> (<em>String</em>) – Default value is “%s.%S”</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_get_value_from_json">
+<code class="sig-name descname">km_get_value_from_json</code><span class="sig-paren">(</span><em class="sig-param">pstr_filepath</em>, <em class="sig-param">pstr_key</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_get_value_from_json" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method fetched the value of the specified key from a JSON(.json) file</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_filepath</strong> (<em>String</em>) – Path of the json file</p></li>
+<li><p><strong>pstr_key</strong> (<em>String</em>) – key for which value needs to be fetched</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>value for specified key</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_get_value_from_yaml">
+<code class="sig-name descname">km_get_value_from_yaml</code><span class="sig-paren">(</span><em class="sig-param">pstr_filepath</em>, <em class="sig-param">pstr_key</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_get_value_from_yaml" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method fetched the value of the specified key from a yaml (.yml) file</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_filepath</strong> (<em>String</em>) – Path of the yml file</p></li>
+<li><p><strong>pstr_key</strong> (<em>String</em>) – key for which value needs to be fetched</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>value for specified key</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_modify_payload">
+<code class="sig-name descname">km_modify_payload</code><span class="sig-paren">(</span><em class="sig-param">pstr_json_template_payload</em>, <em class="sig-param">pstr_json_payload_to_modify</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_modify_payload" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method add, updates or modifies a payload</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_json_template_payload</strong> (<em>Json</em>) – Source Json in which you need modifications</p></li>
+<li><p><strong>pstr_json_payload_to_modify</strong> (<em>Json</em>) – List of key values that need to be added, modified.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dict_final_payload - Final modified payload</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">1. modify_payload(‘{“name”:”ABC”,”year”:”1900”}’, ‘{“HQ”:”New York”}’) returns {“name”:”ABC”,”year”:”1900”,”HQ”:”New York”}</div>
+<div class="line">2. modify_payload(‘{“name”:”ABC”,”year”:”1900”}’, ‘{“HQ”:”New York”, “year”:”2000”}’) returns {“name”:”ABC”,”year”:”2000”,”HQ”:”New York”}</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_overwrite_path_parameters">
+<code class="sig-name descname">km_overwrite_path_parameters</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em>, <em class="sig-param">pstr_current_path_parameters</em>, <em class="sig-param">pstr_new_path_parameters</em>, <em class="sig-param">delimeter='</em>, <em class="sig-param">'</em>, <em class="sig-param">bln_encode=False</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_overwrite_path_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method allows user to overwrite Path Parameters in the URI</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_url</strong> (<em>String</em>) – url for which path parameters need to be overwritten</p></li>
+<li><p><strong>pstr_current_path_parameters</strong> (<em>String</em>) – Current Path Parameters</p></li>
+<li><p><strong>pstr_new_path_parameters</strong> (<em>String</em>) – New Path parameters</p></li>
+<li><p><strong>delimeter</strong> (<em>String</em>) – delimiter to be used</p></li>
+<li><p><strong>bln_encode</strong> (<em>bool</em>) – False will add the parameters as it is True replaces special characters in the url using %xx escape. Letters, digits and characters ‘_._’ are never quoted</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>str_url_with_params</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">1. overwrite_path_parameters(“<a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a>”, “param1,param2”, “param11,param22”)  returns <a class="reference external" href="https://www.samplesite.com/param11/param22">https://www.samplesite.com/param11/param22</a></div>
+<div class="line">2.  overwrite_path_parameters(“<a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a>”, “param2”, “param22”) returns <a class="reference external" href="https://www.samplesite.com/param1/param22">https://www.samplesite.com/param1/param22</a></div>
+<div class="line">3. overwrite_path_parameters(“<a class="reference external" href="https://www.samplesite.com/param1/param2">https://www.samplesite.com/param1/param2</a>”, “param1#param2”, “param11#param22”, delimeter=’#’)  returns <a class="reference external" href="https://www.samplesite.com/param11/param22">https://www.samplesite.com/param11/param22</a></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.rest_initiator.RestInitiator.km_soap_add_wsdl_endpoint">
+<code class="sig-name descname">km_soap_add_wsdl_endpoint</code><span class="sig-paren">(</span><em class="sig-param">pstr_url</em>, <em class="sig-param">pstr_wsdl_endpoint</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.rest_initiator.RestInitiator.km_soap_add_wsdl_endpoint" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method adds WSDL endpoint to the base URL and returns the final URL</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_url</strong> (<em>String</em>) – URL to which wsdl needs to be added</p></li>
+<li><p><strong>pstr_wsdl_endpoint</strong> (<em>String</em>) – WSDL end point</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Final URL</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-kosmos.elements.apis.soap_initiator">
+<span id="apis-soap-initiator"></span><h2>apis.soap_initiator<a class="headerlink" href="#module-kosmos.elements.apis.soap_initiator" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator">
+<em class="property">class </em><code class="sig-prename descclassname">kosmos.elements.apis.soap_initiator.</code><code class="sig-name descname">SoapInitiator</code><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This class handles SOAP services - parsing and identifying methods in a WSDL along with parameters</div>
+<div class="line">This class also deals with calling SOAP service methods and storing response objects</div>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">This class heavily uses a python package called zeep and it’s documentation is available at <a class="reference external" href="https://python-zeep.readthedocs.io/en/master/index.html">https://python-zeep.readthedocs.io/en/master/index.html</a></div>
+</div>
+</div>
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_call_soap_operation">
+<code class="sig-name descname">km_call_soap_operation</code><span class="sig-paren">(</span><em class="sig-param">pstr_wsdlurl</em>, <em class="sig-param">pstr_operation_name</em>, <em class="sig-param">pdict_headers={}</em>, <em class="sig-param">pbln_set_default_settings=True</em>, <em class="sig-param">pbln_set_default_transport=True</em>, <em class="sig-param">**pstr_operation_params</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_call_soap_operation" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Description:</dt><dd><p>This method allows user to call a method in a SOAP WSDL along with its parameters</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_wsdlurl</strong> (<em>String</em>) – wsdl URL on which a soap operation needs to be called</p></li>
+<li><p><strong>pstr_operation_name</strong> (<em>String</em>) – Name of the operation</p></li>
+<li><p><strong>pdict_headers</strong> (<em>dictionary</em>) – header values</p></li>
+<li><p><strong>pbln_set_default_settings</strong> (<em>bool</em>) – true if you want the default setting of client needs to be applied</p></li>
+<li><p><strong>pbln_set_default_transport</strong> (<em>bool</em>) – true if you want the default transport settings needs to be applied</p></li>
+<li><p><strong>pstr_operation_params</strong> (<em>bool</em>) – pstr_operation_params are the arguments that needs to be passed to the soap method pstr_operation_name</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Response Object</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_get_request_method">
+<code class="sig-name descname">km_get_request_method</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_get_request_method" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns the type of request method(GET/POST/PUT etc) using the response object</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobj_response_obj</strong> (<em>Object</em>) – Response object whose request type is needed</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>String</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_get_response_statuscode">
+<code class="sig-name descname">km_get_response_statuscode</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_get_response_statuscode" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns status code of the response that is passed</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobj_response_obj</strong> (<em>Object</em>) – Response object whose status code is needed</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>status code integer</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_get_response_url">
+<code class="sig-name descname">km_get_response_url</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_get_response_url" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns the url of the response Operation</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobj_response_obj</strong> (<em>Object</em>) – Response object whose URL is needed</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>URL String</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_get_response_xml">
+<code class="sig-name descname">km_get_response_xml</code><span class="sig-paren">(</span><em class="sig-param">pobj_response_obj</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_get_response_xml" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns the response as String</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobj_response_obj</strong> (<em>Object</em>) – Response object whose response string is needed</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Response as String</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_parse_wsdl_elements">
+<code class="sig-name descname">km_parse_wsdl_elements</code><span class="sig-paren">(</span><em class="sig-param">plst_elements</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_parse_wsdl_elements" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Description:</dt><dd><p>This method parses the requested (from parameter plst_elements) in a WSDL and fetches the parameters list</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>plst_elements</strong> (<em>dictionary</em>) – Elements whose paramters need to be fetched</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dictionary with all the parameters</p>
+</dd>
+</dl>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">|</span>  <span class="n">operations</span><span class="p">[</span><span class="n">operation</span><span class="o">.</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="o">|</span>  <span class="n">operations</span><span class="p">[</span><span class="n">operation</span><span class="o">.</span><span class="n">name</span><span class="p">][</span><span class="s1">&#39;input&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="o">|</span>  <span class="n">elements</span> <span class="o">=</span> <span class="n">operation</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">body</span><span class="o">.</span><span class="n">type</span><span class="o">.</span><span class="n">elements</span>
+<span class="o">|</span>  <span class="n">operations</span><span class="p">[</span><span class="n">operation</span><span class="o">.</span><span class="n">name</span><span class="p">][</span><span class="s1">&#39;input&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parse_wsdl_elements</span><span class="p">(</span><span class="n">elements</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_set_client_settings">
+<code class="sig-name descname">km_set_client_settings</code><span class="sig-paren">(</span><em class="sig-param">pbln_strict=True</em>, <em class="sig-param">pbln_raw_response=True</em>, <em class="sig-param">pbln_force_https=True</em>, <em class="sig-param">pdict_extra_http_headers=None</em>, <em class="sig-param">pbln_xml_huge_tree=False</em>, <em class="sig-param">pbln_forbid_dtd=False</em>, <em class="sig-param">pbln_forbid_entities=True</em>, <em class="sig-param">pbln_forbid_external=True</em>, <em class="sig-param">pbln_xsd_ignore_sequence_order=False</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_set_client_settings" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">Before a soap service is called, you will be using an object called client object</div>
+<div class="line">This object will have its configuration settings which helps you set various options</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pbln_strict</strong> (<em>bool</em>) – boolean to indicate if the lxml should be parsed a ‘strict’. If false then the recover mode is enabled which tries to parse invalid XML as best as it can.</p></li>
+<li><p><strong>pbln_raw_response</strong> (<em>bool</em>) – boolean to skip the parsing of the XML response by zeep but instead returning the raw data</p></li>
+<li><p><strong>pbln_force_https</strong> (<em>bool</em>) – Force all connections to HTTPS if the WSDL is also loaded from an HTTPS endpoint. (default: true)</p></li>
+<li><p><strong>pdict_extra_http_headers</strong> (<em>dictionary</em>) – dditional HTTP headers to be sent to the transport. This can be used in combination with the context manager approach to add http headers for specific calls.</p></li>
+<li><p><strong>pbln_xml_huge_tree</strong> (<em>bool</em>) – disable lxml/libxml2 security restrictions and support very deep trees and very long text content</p></li>
+<li><p><strong>pbln_forbid_dtd</strong> (<em>bool</em>) – disallow XML with a &lt;!DOCTYPE&gt; processing instruction</p></li>
+<li><p><strong>pbln_forbid_entities</strong> (<em>bool</em>) – disallow XML with &lt;!ENTITY&gt; declarations inside the DTD</p></li>
+<li><p><strong>pbln_forbid_external</strong> (<em>bool</em>) – disallow any access to remote or local resources in external entities or DTD and raising an ExternalReferenceForbidden exception when a DTD or entity references an external resource.</p></li>
+<li><p><strong>pbln_xsd_ignore_sequence_order</strong> (<em>bool</em>) – boolean to indicate whether to enforce sequence order when parsing complex types. This is a workaround for servers that don’t respect sequence order.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>returns Setting object</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">Default values for the parameters are: pbln_strict=True, pbln_raw_response=True, pbln_force_https=True, pdict_extra_http_headers=None, pbln_xml_huge_tree=False, pbln_forbid_dtd=False, pbln_forbid_entities=True, pbln_forbid_external=True, pbln_xsd_ignore_sequence_order=False</div>
+<div class="line">pbln_raw_response=True will fetch the response object with status code, response, url, method</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_set_client_transport">
+<code class="sig-name descname">km_set_client_transport</code><span class="sig-paren">(</span><em class="sig-param">pbln_verify=False</em>, <em class="sig-param">pint_timeout=300</em>, <em class="sig-param">pstr_username=None</em>, <em class="sig-param">pstr_password=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_set_client_transport" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This option helps you to create Transport Layer Security (TSL) object.</div>
+<div class="line">If you need to change optins like cache, timepits or TLS (or SSL) verification, you will</div>
+<div class="line">need to use this method.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pbln_verify</strong> (<em>bool</em>) – to verify if session is created</p></li>
+<li><p><strong>pint_timeout</strong> – time out value in seconds</p></li>
+<li><p><strong>pstr_username</strong> (<em>string</em>) – user name for authentication</p></li>
+<li><p><strong>pstr_password</strong> (<em>string</em>) – password for authentication</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>returns a transport object</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">Default values for the parameters are: pbln_verify=False, pint_timeout=300, pstr_username=None,pstr_password=None</div>
+<div class="line">If the service needs any Authentication then pass values for pstr_username and pstr_password</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.soap_initiator.SoapInitiator.km_soap_parsewsdl">
+<code class="sig-name descname">km_soap_parsewsdl</code><span class="sig-paren">(</span><em class="sig-param">pstr_wsdlurl</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.soap_initiator.SoapInitiator.km_soap_parsewsdl" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method parses WSDL and fetches all the methods available along with the input parameters</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_wsdlurl</strong> (<em>String</em>) – URL of the wsdl you want to parse.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>All the operations available in WSDL along with its parameters and their properties (optional/mandatory, data types, and other related information)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-kosmos.elements.apis.socket_initiator">
+<span id="apis-socket-initiator"></span><h2>apis.socket_initiator<a class="headerlink" href="#module-kosmos.elements.apis.socket_initiator" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="kosmos.elements.apis.socket_initiator.WebSocketInitiator">
+<em class="property">class </em><code class="sig-prename descclassname">kosmos.elements.apis.socket_initiator.</code><code class="sig-name descname">WebSocketInitiator</code><a class="headerlink" href="#kosmos.elements.apis.socket_initiator.WebSocketInitiator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This class lets user create a socket connection, send a socket message and also handle multiple/streaming socket messages.</div>
+</div>
+</dd>
+</dl>
+<dl class="method">
+<dt id="kosmos.elements.apis.socket_initiator.WebSocketInitiator.km_send_multi_socket_message">
+<code class="sig-name descname">km_send_multi_socket_message</code><span class="sig-paren">(</span><em class="sig-param">pstr_socket_url</em>, <em class="sig-param">plist_messages</em>, <em class="sig-param">pstr_on_message</em>, <em class="sig-param">pstr_on_error</em>, <em class="sig-param">pstr_on_open</em>, <em class="sig-param">pstr_on_close</em>, <em class="sig-param">pint_wait_time=1</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.socket_initiator.WebSocketInitiator.km_send_multi_socket_message" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method allows user to send a multi socket message and capture the response until an exit criteria is met. This method also allows user to overwrite the def km_ault behavior of WebSocket’s on_message/on_error/on_open/on_close methods and create a new implementation.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_socket_url</strong> (<em>String</em>) – </p></li>
+<li><p><strong>plist_messages</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_on_message</strong> (<em>String</em>) – When null, it points to WebSocketHandlser’s __on_message</p></li>
+<li><p><strong>pstr_on_error</strong> (<em>String</em>) – When null, it points to WebSocketHandlser’s __on_error</p></li>
+<li><p><strong>pstr_on_open</strong> (<em>String</em>) – When null, it points to WebSocketHandlser’s __on_open</p></li>
+<li><p><strong>pstr_on_close</strong> (<em>String</em>) – When null, it points to WebSocketHandlser’s __on_close</p></li>
+<li><p><strong>pint_wait_time</strong> (<em>int</em>) – def km_ault value is 1</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>This method doesn’t return anything. But to fetch the response of multi socket message, use the WebSocketHandler class variable ‘arr_multi_response’</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">When user wants to create custom implementation of on_message/on_error/on_open/on_close; make sure to leverage WebSocketHandler’s class variables ‘arr_multi_response’ and ‘list_messages’</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.socket_initiator.WebSocketInitiator.km_send_socket_message">
+<code class="sig-name descname">km_send_socket_message</code><span class="sig-paren">(</span><em class="sig-param">pstr_socket_url</em>, <em class="sig-param">pstr_message</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.socket_initiator.WebSocketInitiator.km_send_socket_message" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method is used for sending the message to the socket server</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_socket_url</strong> (<em>String</em>) – Socket URL</p></li>
+<li><p><strong>pstr_message</strong> (<em>String</em>) – Message that needs to be sent</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>response</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.apis.socket_initiator.WebSocketInitiator.km_set_socket_connection">
+<code class="sig-name descname">km_set_socket_connection</code><span class="sig-paren">(</span><em class="sig-param">pstr_socket_url</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.apis.socket_initiator.WebSocketInitiator.km_set_socket_connection" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method is used to establish the connection with the socket</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_socket_url</strong> (<em>String</em>) – Socket URL</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Socket Connection Object</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="kosmos.elements.clusters.html" class="btn btn-neutral float-right" title="kosmos.elements.clusters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="kosmos.elements.html" class="btn btn-neutral float-left" title="kosmos.elements" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, scroogemcduck612
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

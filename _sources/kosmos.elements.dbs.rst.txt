@@ -1,0 +1,11 @@
+kosmos.elements.dbs
+===========================
+
+dbs.database\_initiator
+----------------------------------------------
+
+.. automodule:: kosmos.elements.dbs.database_initiator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

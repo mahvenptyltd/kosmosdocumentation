@@ -1,0 +1,26 @@
+kosmos.elements.apis
+============================
+
+apis.rest\_initiator
+-------------------------------------------
+
+.. automodule:: kosmos.elements.apis.rest_initiator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+apis.soap\_initiator
+-------------------------------------------
+
+.. automodule:: kosmos.elements.apis.soap_initiator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+apis.socket\_initiator
+---------------------------------------------
+
+.. automodule:: kosmos.elements.apis.socket_initiator
+   :members:
+   :undoc-members:
+   :show-inheritance:

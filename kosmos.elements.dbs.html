@@ -1,0 +1,907 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>kosmos.elements.dbs &mdash; kosmos 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="kosmos.elements.ui_ux" href="kosmos.elements.ui_ux.html" />
+    <link rel="prev" title="kosmos.elements.clusters" href="kosmos.elements.clusters.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> kosmos
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">kosmos</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="kosmos.html">kosmos</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="kosmos.elements.html">kosmos.elements</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.apis.html">kosmos.elements.apis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.clusters.html">kosmos.elements.clusters</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">kosmos.elements.dbs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.ui_ux.html">kosmos.elements.ui_ux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">kosmos</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">kosmos</a> &raquo;</li>
+        
+          <li><a href="kosmos.html">kosmos</a> &raquo;</li>
+        
+          <li><a href="kosmos.elements.html">kosmos.elements</a> &raquo;</li>
+        
+      <li>kosmos.elements.dbs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/kosmos.elements.dbs.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kosmos-elements-dbs">
+<h1>kosmos.elements.dbs<a class="headerlink" href="#kosmos-elements-dbs" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-kosmos.elements.dbs.database_initiator">
+<span id="dbs-database-initiator"></span><h2>dbs.database_initiator<a class="headerlink" href="#module-kosmos.elements.dbs.database_initiator" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator">
+<em class="property">class </em><code class="sig-prename descclassname">kosmos.elements.dbs.database_initiator.</code><code class="sig-name descname">DatabaseInitiator</code><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This class provides methods for</div>
+<div class="line">1. Database connection (with username/pwd and with SSL) for MSSQL, MYSQL, Oracle, HIVE, Postgres, Cassandra</div>
+<div class="line">2. Executing a query statement</div>
+<div class="line">3. Fetching resultset/recordset</div>
+<div class="line">4. Compare 2 resultsets</div>
+<div class="line-block">
+<div class="line">(i)   1-1 comparison</div>
+<div class="line">(ii)  Comparison based on Headers</div>
+<div class="line">(iii) Compare only few columns</div>
+<div class="line">(iv)  Compare by ignoring column data type</div>
+</div>
+<div class="line">5. Reading data from files(csv, excel) and convert into list</div>
+<div class="line">6. Export data frame/resultset to csv</div>
+</div>
+</dd>
+</dl>
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_cassandra_resultset_to_list">
+<code class="sig-name descname">km_cassandra_resultset_to_list</code><span class="sig-paren">(</span><em class="sig-param">prs_cassandra_resultset</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_cassandra_resultset_to_list" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns the headers and all the row values in a cassandra-driver resultset.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>prs_cassandra_resultset</strong> (<em>Cassandra Resultset Object</em>) – This is a cassandra-driver resultset</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List</p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="line-block">
+<div class="line">Only pass cassandra-driver resultset object to this method.</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_data_in_column">
+<code class="sig-name descname">km_check_data_in_column</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em>, <em class="sig-param">pdata_value</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_data_in_column" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method verifies if the value is present in the resultlist or not.</div>
+<div class="line">It supports</div>
+<div class="line-block">
+<div class="line">1. Check if value is available in a particular column</div>
+<div class="line">2. Check if the value is present in multiple columns</div>
+<div class="line">3. Check if the value is present in the resultlist irrespective of column name, just check if it exist or not</div>
+<div class="line"><br /></div>
+</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>plist_resultlist</strong> (<em>Result List</em>) – </p></li>
+<li><p><strong>pdata_column_header</strong> (<em>Can be Int/String/Float/Datetime</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>bool/list of difference</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">Donot use this method directly into your code, please use the verify and assert method of assertion-datbase class</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_headers_in_resultlist">
+<code class="sig-name descname">km_check_headers_in_resultlist</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em>, <em class="sig-param">plist_headers</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_headers_in_resultlist" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method is for verifying whether the headers are available in the resultlist or not</div>
+<div class="line">The resultlist that will be passed in this method should be the one that is returned by the execute_statement method</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>plist_resultlist</strong> – resultlist generated by execute_statement</p></li>
+<li><p><strong>plist_headers</strong> – list of headers to check if available or not</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>invalid match list</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">Donot use this method directly into your code, please use the verify and assert method of assertion-datbase class</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_table_exists">
+<code class="sig-name descname">km_check_table_exists</code><span class="sig-paren">(</span><em class="sig-param">pobject_connection</em>, <em class="sig-param">pstr_database_name</em>, <em class="sig-param">pstr_table_name</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_table_exists" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method check if a table exists in a database.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pobject_connection</strong> (<em>Database Connection Object</em>) – </p></li>
+<li><p><strong>pstr_database_name</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_table_name</strong> (<em>String</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Boolean</p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="line-block">
+<div class="line">The method does not support HIVE right now.</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_value_exists_in_column">
+<code class="sig-name descname">km_check_value_exists_in_column</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em>, <em class="sig-param">pstr_column_header</em>, <em class="sig-param">pstr_value</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_value_exists_in_column" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns True if a value exists under a column header, otherwise returns False.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>plist_resultlist</strong> (<em>Result List</em>) – </p></li>
+<li><p><strong>pstr_column_header</strong> – </p></li>
+<li><p><strong>pstr_value</strong> (<em>String</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Boolean</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_value_not_exists_in_column">
+<code class="sig-name descname">km_check_value_not_exists_in_column</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em>, <em class="sig-param">pstr_column_header</em>, <em class="sig-param">pstr_value</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_check_value_not_exists_in_column" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns True if a value does not exists under a column header, otherwise returns False.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>plist_resultlist</strong> (<em>Result List</em>) – </p></li>
+<li><p><strong>pstr_column_header</strong> – </p></li>
+<li><p><strong>pstr_value</strong> (<em>String</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Boolean</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_close">
+<code class="sig-name descname">km_close</code><span class="sig-paren">(</span><em class="sig-param">pobject_connection</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_close" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method closes the database connection.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pobject_connection</strong> (<em>Database Connection Object</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_compare_resultlists">
+<code class="sig-name descname">km_compare_resultlists</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist_source</em>, <em class="sig-param">plist_resultlist_target</em>, <em class="sig-param">pstr_compare_mode='index'</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_compare_resultlists" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method lets user compare two result lists and returns the difference in the form of a Dataframe.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>plist_resultlist_source</strong> (<em>Result List</em>) – </p></li>
+<li><p><strong>plist_resultlist_target</strong> (<em>Result List</em>) – </p></li>
+<li><p><strong>pstr_compare_mode</strong> (<em>String</em>) – index/header</p></li>
+<li><p><strong>plist_headers</strong> (<em>kwargs</em>) – List of Headers to compare</p></li>
+<li><p><strong>plist_headers_source</strong> (<em>kwargs</em>) – List of Source Headers to compare</p></li>
+<li><p><strong>plist_headers_target</strong> (<em>kwargs</em>) – List of Source Headers to compare</p></li>
+<li><p><strong>pint_rowcount</strong> (<em>kwargs</em>) – Number of rows to compare</p></li>
+<li><p><strong>pbool_ignore_datatype</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>pbool_line_to_line</strong> (<em>kwargs</em>) – default value is False</p></li>
+<li><p><strong>pbool_get_common</strong> (<em>kwargs</em>) – default value is False</p></li>
+<li><p><strong>pbool_ignore_header_case</strong> (<em>kwargs</em>) – default value is False</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>When pbool_line_to_line=False, returns two Dataframes, one contains (source - target) and the other contains (target - source)
+When pbool_line_to_line=False and pbool_get_common=True, returns three Dataframes, first one is common data, second one contains (source - target) and the other contains (target - source)
+When pbool_line_to_line=True, returns one Dataframe containing (source - target)</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">1. Let us imagine we have 2 result sets rs_source=3 headers and rs_target=3 headers then usage would be</div>
+<div class="line">compare_resultsets(rs_source, rs_target) or compare_resultsets(rs_source, rs_target, pstr_compare_mode=’index’)</div>
+<div class="line">This will only work when both result sets have same no. of headers, otherwise an exception will be thrown.</div>
+<div class="line">2. Let us imagine we have 2 result sets with headers as following rs_source=[‘id’, ‘name’, ‘age’] and (rs_target=[‘id’, ‘name’, ‘age’] or rs_target=[‘age’, ‘name’, ‘id’])</div>
+<div class="line">compare_resultsets(rs_source, rs_target, pstr_compare_mode=’header’)</div>
+<div class="line">This will only work when both result sets have same no. of headers, otherwise an exception will be thrown.</div>
+<div class="line">3. Let us imagine we have 2 result sets with headers as following rs_source=[‘id’, ‘name’, ‘age’, ‘location’, ‘country’] and rs_target=[‘id’, ‘name’, ‘age’]</div>
+<div class="line">compare_resultsets(rs_source, rs_target, pstr_compare_mode=’header’, plist_headers=[‘id’, ‘name’, ‘age’])</div>
+<div class="line">4. Let us imagine we have 2 result sets with headers as following rs_source=[‘id_source’, ‘name_source’, ‘age_source’, ‘location_source’, ‘country_source’] and rs_target=[‘id_target’, ‘name_target’, ‘age_target’]</div>
+<div class="line">compare_resultsets(rs_source, rs_target, pstr_compare_mode=’header’, plist_headers_source=[‘id_source’, ‘name_source’, ‘age_source’], plist_headers_target=[‘id_target’, ‘name_target’, ‘age_target’])</div>
+<div class="line">In this case, id_source will be compared with id_target and so on.</div>
+<div class="line">Make sure that plist_headers_source and plist_headers_target are used together, otherwise an exception will be thrown.</div>
+<div class="line">Sizes of both the lists plist_headers_source and plist_headers_target must be same.</div>
+<div class="line">5. Let us imagine the requirement is to compare only top few records from both result sets then use the <a href="#id1"><span class="problematic" id="id2">**</span></a>kwargs parameter pint_rowcount</div>
+<div class="line">compare_resultsets(rs_source, rs_target, pint_rowcount=10)</div>
+<div class="line">6. If user wants to perform row-to-row comparison of same sized(same no. of rows) data, then</div>
+<div class="line">compare_resultlists(resultset1, resultset2, pint_row_count=10, pbool_line_to_line=True, pstr_compare_mode=’header’)</div>
+<div class="line">7. If the user wants to fetch common data in both resultlists along with (source-target and target_source), then</div>
+<div class="line">compare_resultlists(resultset1, resultset2, pstr_compare_mode=’header’, pbool_get_common=True)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_create_db_connection">
+<code class="sig-name descname">km_create_db_connection</code><span class="sig-paren">(</span><em class="sig-param">pstr_database_type</em>, <em class="sig-param">pstr_server_name</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_create_db_connection" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Description:</dt><dd><p><a href="#id3"><span class="problematic" id="id4">|</span></a>This method creates a DB connection</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_database_type</strong> (<em>String</em>) – This parameter can accept only mssql/mysql/oracle/hive/postgres/cassandra/spark/ec2_hive</p></li>
+<li><p><strong>pstr_server_name</strong> (<em>String</em>) – server name</p></li>
+<li><p><strong>pstr_database_name</strong> (<em>kwargs</em>) – database name</p></li>
+<li><p><strong>pstr_username</strong> (<em>kwargs</em>) – username</p></li>
+<li><p><strong>pstr_password</strong> (<em>kwargs</em>) – password</p></li>
+<li><p><strong>pint_port_number</strong> (<em>kwargs</em>) – port</p></li>
+<li><p><strong>pbool_ispasswordencoded</strong> (<em>kwargs</em>) – True/False</p></li>
+<li><p><strong>ppem_file</strong> (<em>kwargs</em>) – SSH key file path</p></li>
+<li><p><strong>psecret_key</strong> (<em>kwargs</em>) – secret key</p></li>
+<li><p><strong>pstr_sid</strong> (<em>kwargs</em>) – SID</p></li>
+<li><p><strong>pstr_service_name</strong> (<em>kwargs</em>) – Service Name</p></li>
+<li><p><strong>pstr_encoding</strong> (<em>kwargs</em>) – encoding format</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Database Connection Object</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">1. create_db_connection(‘mssql’, ‘database server name’, pstr_database_name=’database name’)</div>
+<div class="line">2. create_db_connection(‘mssql’, ‘database server name’, pstr_database_name=’database name’, pstr_username=’username’, pstr_password=’password’)</div>
+<div class="line">3. create_db_connection(‘oracle’, ‘host’, pstr_database_name=’database name’, pstr_username=’username’, pstr_password=’password’, pint_port_number=port, pstr_service_name=’service_name’)</div>
+<div class="line">4. create_db_connection(‘oracle’, ‘host’, pstr_database_name=’database name’, pstr_username=’username’, pstr_password=’password’, pint_port_number=port, pstr_sid=’sid’)</div>
+<div class="line">5. create_db_connection(‘hive’, ‘database server name’, pstr_database_name=’database name’, pstr_username=’username’, pstr_password=’password’)</div>
+<div class="line">6. create_db_connection(‘hive’, ‘database server name’, pstr_username=’username’, ppem_file=’SSH Key file path’)</div>
+<div class="line">7. create_db_connection(‘postgres’, ‘database server name’, pint_port_number=port, pstr_database_name=’database server name’, pstr_username=’username’, pstr_password=’password’)</div>
+<div class="line">8. create_db_connection(‘cassandra’, ‘database server name’, pstr_database_name=’database name’, pstr_username=’username’, pstr_password=’password’)</div>
+</div>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="line-block">
+<div class="line">Old reference - Oracle instant client is a must be available on the host for oracle connection. Refer to the documentation at <a class="reference external" href="https://cx-oracle.readthedocs.io/en/latest/installation.html#installing-cx-oracle-on-windows">https://cx-oracle.readthedocs.io/en/latest/installation.html#installing-cx-oracle-on-windows</a> to understand the setup process.
+|  Latest reference - Oracle instant client is a must be available on the host for oracle connection. Refer to the documentation at <a class="reference external" href="https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html#installing-cx-oracle-on-windows">https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html#installing-cx-oracle-on-windows</a> to understand the setup process.</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_data_frame_diff">
+<code class="sig-name descname">km_data_frame_diff</code><span class="sig-paren">(</span><em class="sig-param">pdf_dataframe_source</em>, <em class="sig-param">pdf_dataframe_destinition</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_data_frame_diff" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method lets user compare two Dataframes and returns the difference in the form of a Dataframe.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pdf_dataframe_source</strong> (<em>pandas Dataframe</em>) – </p></li>
+<li><p><strong>pdf_dataframe_destinition</strong> (<em>pandas Dataframe</em>) – </p></li>
+<li><p><strong>plist_headers</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>plist_headers_source</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>plist_headers_target</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>pint_rowcount</strong> (<em>kwargs</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Dataframe</p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="line-block">
+<div class="line">DO NOT try to call this method directly, this is a helper method for compare_resultlists()</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_dataframe_to_csv">
+<code class="sig-name descname">km_dataframe_to_csv</code><span class="sig-paren">(</span><em class="sig-param">pdf_dataframe</em>, <em class="sig-param">pstr_path</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_dataframe_to_csv" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method writes Dataframe to a csv file.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pdf_dataframe</strong> (<em>Dataframe</em>) – </p></li>
+<li><p><strong>pstr_filepath</strong> (<em>String</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>CSV File</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_dataframe_to_resultset">
+<code class="sig-name descname">km_dataframe_to_resultset</code><span class="sig-paren">(</span><em class="sig-param">pdf_dataframe</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_dataframe_to_resultset" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method converts a dataframe object to resultset object.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pdf_dataframe</strong> (<em>Dataframe</em>) – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>ResultSet</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_decode_password">
+<code class="sig-name descname">km_decode_password</code><span class="sig-paren">(</span><em class="sig-param">pkey</em>, <em class="sig-param">psecret_key</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_decode_password" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_execute_query_from_file">
+<code class="sig-name descname">km_execute_query_from_file</code><span class="sig-paren">(</span><em class="sig-param">pobject_connection</em>, <em class="sig-param">pstr_filepath</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_execute_query_from_file" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method allows user to execute a query available in a file.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pobject_connection</strong> (<em>Database Connection Object</em>) – </p></li>
+<li><p><strong>pstr_filepath</strong> (<em>String</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>ResultSet</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_execute_statement">
+<code class="sig-name descname">km_execute_statement</code><span class="sig-paren">(</span><em class="sig-param">pobject_connection</em>, <em class="sig-param">psql_query</em>, <em class="sig-param">pstr_return_type='list'</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_execute_statement" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method allows user to execute a database query statement.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pobject_connection</strong> (<em>Database Connection Object</em>) – </p></li>
+<li><p><strong>psql_query</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_return_type</strong> (<em>String</em>) – list/resultset</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List or ResultSet or Boolean</p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="line-block">
+<div class="line">This method can not be used to execute HIVE statements.</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_file_to_resultlist">
+<code class="sig-name descname">km_file_to_resultlist</code><span class="sig-paren">(</span><em class="sig-param">pstr_filepath</em>, <em class="sig-param">pstr_filetype='csv'</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_file_to_resultlist" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method converts data in a csv/excel file into a Result List.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_filepath</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_filetype</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_column_separator</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>pstr_row_separator</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>pint_skiprows</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>pstr_quotechar</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>pstr_encoding</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>pstr_sheetname</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>plist_headers</strong> (<em>kwargs</em>) – </p></li>
+<li><p><strong>pint_read_rows_count</strong> (<em>kwargs</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Result List</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">file_to_resultset(path,pstr_filetype=’csv’)</div>
+<div class="line">file_to_resultset(path,pstr_filetype=’csv’,pint_read_rows_count=5)</div>
+<div class="line">file_to_resultset(path,pstr_filetype=’csv’,pint_read_rows_count=5,plist_headers=[‘first’,’second’, ‘third’])</div>
+<div class="line">file_to_resultset(path,pstr_filetype=’csv’,pint_skiprows=100)</div>
+<div class="line">obj.file_to_resultsetlist(path,pstr_filetype=’excel’)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_get_column_data">
+<code class="sig-name descname">km_get_column_data</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em>, <em class="sig-param">pstr_column_header</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_get_column_data" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns all the values in a column header.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>plist_resultlist</strong> (<em>Result List</em>) – </p></li>
+<li><p><strong>pstr_column_header</strong> (<em>String</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_get_headers">
+<code class="sig-name descname">km_get_headers</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_get_headers" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns list of headers in a result list.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>plist_resultlist</strong> (<em>List</em>) – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_get_rowcount">
+<code class="sig-name descname">km_get_rowcount</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_get_rowcount" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns the count of rows in a result list.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>plist_resultlist</strong> (<em>List</em>) – This is a List that contains column headers and row values</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Integer</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_hive_execute_statement">
+<code class="sig-name descname">km_hive_execute_statement</code><span class="sig-paren">(</span><em class="sig-param">pobject_hiveclient</em>, <em class="sig-param">p_query</em>, <em class="sig-param">pstr_return_type='list'</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_hive_execute_statement" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method allows user to execute a HIVE database query statement.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pobject_hiveclient</strong> (<em>Hive Database Connection Object</em>) – </p></li>
+<li><p><strong>p_query</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_return_type</strong> (<em>String</em>) – list/resultset</p></li>
+<li><p><strong>pbool_include_header</strong> (<em>kwargs:bool</em>) – default value is False, if set to true will print the headers also</p></li>
+<li><p><strong>pstr_server_connect</strong> (<em>kwargs:string</em>) – If the user needs to connect to a server then he can send the command to this pararmeter</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List or ResultSet or Boolean</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_is_rowcount_zero">
+<code class="sig-name descname">km_is_rowcount_zero</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_is_rowcount_zero" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method checks if the row count is zero or not.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>plist_resultlist</strong> (<em>List</em>) – This is a List that contains column headers and row values</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Boolean</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_list_to_dataframe">
+<code class="sig-name descname">km_list_to_dataframe</code><span class="sig-paren">(</span><em class="sig-param">plist_data</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_list_to_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method is for converting the list to dataframes</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>plist_data</strong> (<em>list</em>) – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Dataframe</p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="line-block">
+<div class="line">The list which we should pass must be the output of the execute_statement with list as return data</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_resultlist_to_csv">
+<code class="sig-name descname">km_resultlist_to_csv</code><span class="sig-paren">(</span><em class="sig-param">plist_resultlist</em>, <em class="sig-param">pstr_filepath</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_resultlist_to_csv" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method writes Result List to a csv file.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>plist_resultlist</strong> (<em>Result List</em>) – </p></li>
+<li><p><strong>pstr_filepath</strong> (<em>String</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>CSV File</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_resultset_to_list">
+<code class="sig-name descname">km_resultset_to_list</code><span class="sig-paren">(</span><em class="sig-param">prs_resultset</em>, <em class="sig-param">pbool_include_headers=True</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_resultset_to_list" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method converts a ResultSet into a List.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prs_resultset</strong> (<em>ResultSet</em>) – </p></li>
+<li><p><strong>pbool_include_headers</strong> (<em>Boolean</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_spark_execute_statement">
+<code class="sig-name descname">km_spark_execute_statement</code><span class="sig-paren">(</span><em class="sig-param">pobject_Sparkclient</em>, <em class="sig-param">p_query</em>, <em class="sig-param">pbool_default_spark_command</em>, <em class="sig-param">pstr_name</em>, <em class="sig-param">pstr_return_type='list'</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.dbs.database_initiator.DatabaseInitiator.km_spark_execute_statement" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method allows user to execute a HIVE database query statement using spark-sql.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pobject_Sparkclient</strong> (<em>Spark-Sql Database Connection Object</em>) – </p></li>
+<li><p><strong>p_query</strong> (<em>String</em>) – </p></li>
+<li><p><strong>pstr_return_type</strong> (<em>String</em>) – list/resultset</p></li>
+<li><p><strong>pint_driver_memory</strong> (<em>int</em>) – driver memory</p></li>
+<li><p><strong>pint_executors</strong> (<em>int</em>) – number of executors</p></li>
+<li><p><strong>pint_cores</strong> (<em>int</em>) – number of cores</p></li>
+<li><p><strong>pint_executor_memory</strong> (<em>int</em>) – executor memory</p></li>
+<li><p><strong>pstr_other_param</strong> (<em>string</em>) – accepts other parameters like –conf spark.yarn.am.nodeLabelExpression=xlarge –conf spark.dynamicAllocation.enabled=false</p></li>
+<li><p><strong>pbool_default_spark_command</strong> (<em>boolean</em>) – if the value is True it none of the above parameters need to be passed in the method</p></li>
+<li><p><strong>pstr_name</strong> (<em>string</em>) – QA name</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List or ResultSet or Boolean</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="kosmos.elements.ui_ux.html" class="btn btn-neutral float-right" title="kosmos.elements.ui_ux" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="kosmos.elements.clusters.html" class="btn btn-neutral float-left" title="kosmos.elements.clusters" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, scroogemcduck612
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

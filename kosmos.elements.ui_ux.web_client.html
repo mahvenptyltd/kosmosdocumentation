@@ -1,0 +1,1431 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>kosmos.elements.ui_ux.web_client &mdash; kosmos 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="kosmos.elements.ui_ux.thick_client" href="kosmos.elements.ui_ux.thick_client.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> kosmos
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">kosmos</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="kosmos.html">kosmos</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="kosmos.elements.html">kosmos.elements</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.apis.html">kosmos.elements.apis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.clusters.html">kosmos.elements.clusters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="kosmos.elements.dbs.html">kosmos.elements.dbs</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="kosmos.elements.ui_ux.html">kosmos.elements.ui_ux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">kosmos</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">kosmos</a> &raquo;</li>
+        
+          <li><a href="kosmos.html">kosmos</a> &raquo;</li>
+        
+          <li><a href="kosmos.elements.html">kosmos.elements</a> &raquo;</li>
+        
+          <li><a href="kosmos.elements.ui_ux.html">kosmos.elements.ui_ux</a> &raquo;</li>
+        
+      <li>kosmos.elements.ui_ux.web_client</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/kosmos.elements.ui_ux.web_client.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kosmos-elements-ui-ux-web-client">
+<h1>kosmos.elements.ui_ux.web_client<a class="headerlink" href="#kosmos-elements-ui-ux-web-client" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-kosmos.elements.ui_ux.web_client.keyboard_mouse_actions">
+<span id="keyboard-mouse-actions"></span><h2>keyboard_mouse_actions<a class="headerlink" href="#module-kosmos.elements.ui_ux.web_client.keyboard_mouse_actions" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions">
+<em class="property">class </em><code class="sig-prename descclassname">kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.</code><code class="sig-name descname">KeyboardMouseActions</code><span class="sig-paren">(</span><em class="sig-param">pdriver</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This class contains methods related to key board and mouse actions</div>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">Create an object for this class as  keyboard_mouse_actions = KeyboardMouseActions(web_client_actions.driver)</div>
+</div>
+</div>
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_action_click">
+<code class="sig-name descname">km_action_click</code><span class="sig-paren">(</span><em class="sig-param">pstr_locator</em>, <em class="sig-param">pint_explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_action_click" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will click on the locator provided . It will find the element for the locator given , convert it into a web element then wait for it to be clickable , the time of wait will depend on the value passed in the explicit wait</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id1"><span class="problematic" id="id2">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be none and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_click_enter">
+<code class="sig-name descname">km_click_enter</code><span class="sig-paren">(</span><em class="sig-param">pelement</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_click_enter" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method performs enter operation on the locator / web element which user passes</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pelement</strong> (<em>String/web element</em>) – pelement accepts a locator or a web element</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_double_click">
+<code class="sig-name descname">km_double_click</code><span class="sig-paren">(</span><em class="sig-param">pelement=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_double_click" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">1) this method performs double click operation on the locator / web element which user passes</div>
+<div class="line">2) if element/locator is not being passed ,double click operation gets performed on where cursor point is.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pelement</strong> (<em>String/webelement</em>) – pelement accepts a locator or a web element</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_drag_and_drop">
+<code class="sig-name descname">km_drag_and_drop</code><span class="sig-paren">(</span><em class="sig-param">pelement_source</em>, <em class="sig-param">pelement_target</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_drag_and_drop" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">drags source element and drops source element to the target element</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pelement_source</strong> (<em>String/webelement</em>) – pelement_source accepts locator or webelement of which drag operation should be performed</p></li>
+<li><p><strong>pelement_target</strong> (<em>String/webelement</em>) – pelement_target accepts locator or webelement of which drop operation should be performed</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_drag_and_drop_by_offset">
+<code class="sig-name descname">km_drag_and_drop_by_offset</code><span class="sig-paren">(</span><em class="sig-param">psource</em>, <em class="sig-param">pxoffset</em>, <em class="sig-param">pyoffset</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_drag_and_drop_by_offset" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">Holds down the left mouse button on the source element, then moves to the target offset and releases the mouse button</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>psource</strong> (<em>webelement/string</em>) – psource is The element to mouse down</p></li>
+<li><p><strong>pxoffset</strong> (<em>int</em>) – X offset to move to</p></li>
+<li><p><strong>pyoffset</strong> (<em>int</em>) – Y offset to move to</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_js_click">
+<code class="sig-name descname">km_js_click</code><span class="sig-paren">(</span><em class="sig-param">pstr_locator</em>, <em class="sig-param">pint_explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_js_click" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will click on the locator provided . It will find the element for the locator given , convert it into a web element then wait for it to be clickable , the time of wait will depend on the value passed in the explicit wait</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id3"><span class="problematic" id="id4">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be none and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_move_to_element">
+<code class="sig-name descname">km_move_to_element</code><span class="sig-paren">(</span><em class="sig-param">pelement</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_move_to_element" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">The mouse cursor moves to the web element or the locator the cursor needs to move to</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>psource</strong> (<em>webelement/locator</em>) – pelement is the element the cursor needs to move to</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_right_click">
+<code class="sig-name descname">km_right_click</code><span class="sig-paren">(</span><em class="sig-param">pelement=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_right_click" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">1) this method performs right click operation on the locator / web element which user passes</div>
+<div class="line">2) if element/locator is not being passed ,right click operation gets performed on where cursor point is.</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pelement</strong> (<em>String/webelement</em>) – pelement accepts a locator or a web element</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_robust_click">
+<code class="sig-name descname">km_robust_click</code><span class="sig-paren">(</span><em class="sig-param">pstr_locator</em>, <em class="sig-param">pint_explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.keyboard_mouse_actions.KeyboardMouseActions.km_robust_click" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will click on the locator provided . It will find the element for the locator given , convert it into a web element then wait for it to be clickable , the time of wait will depend on the value passed in the explicit wait</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id5"><span class="problematic" id="id6">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be none and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-kosmos.elements.ui_ux.web_client.web_client_actions">
+<span id="web-client-actions"></span><h2>web_client_actions<a class="headerlink" href="#module-kosmos.elements.ui_ux.web_client.web_client_actions" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions">
+<em class="property">class </em><code class="sig-prename descclassname">kosmos.elements.ui_ux.web_client.web_client_actions.</code><code class="sig-name descname">WebClientActions</code><span class="sig-paren">(</span><em class="sig-param">pdriver=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">selenium.webdriver.remote.webdriver.WebDriver</span></code></p>
+<div class="line-block">
+<div class="line">This class contains methods to perform various operations on a browser and its elements</div>
+</div>
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_accept_alert">
+<code class="sig-name descname">km_accept_alert</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_accept_alert" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method accepts the alert</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_check_cookies">
+<code class="sig-name descname">km_check_cookies</code><span class="sig-paren">(</span><em class="sig-param">plist_cookies_to_search</em>, <em class="sig-param">pdict_complete_cookie_data</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_check_cookies" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method searches the list of cookies in the current set of cookies</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>plist_cookies_to_search</strong> (<em>list</em>) – List of cookies to be searched</p></li>
+<li><p><strong>pdict_complete_cookie_data</strong> (<em>dictionary</em>) – cookies dictionary generated for the current page</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_click">
+<code class="sig-name descname">km_click</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_click" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will click on the locator provided . It will find the element for the locator given , convert it into a web element then wait for it to be clickable , the time of wait will depend on the value passed in the explicit wait</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id7"><span class="problematic" id="id8">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be none and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_click(“xpath=//a[&#64;class=’advanced-search-link’]”)</div>
+<div class="line">PyGlobals().web_client_actions.km_click(“xpath=//a[&#64;class=’advanced-search-link’]”,30)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_dismiss_alert">
+<code class="sig-name descname">km_dismiss_alert</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_dismiss_alert" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method dismisses or cancels the alert</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_execute_javascript">
+<code class="sig-name descname">km_execute_javascript</code><span class="sig-paren">(</span><em class="sig-param">script</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_execute_javascript" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will execute the javascript code passed in the ‘script’ parameter with additional parameters for the script(if required)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>script</strong> (<em>String</em>) – This is the actual javascript code that needs to be executed</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>String/None : Depends on the javascript code</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_execute_javascript(“document.getElementById(‘some id’).value=’someValue’;”)</div>
+<div class="line">PyGlobals().web_client_actions.km_execute_javascript(“argument[0].click();”,web_element)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_fetch_data_from_dataframe">
+<code class="sig-name descname">km_fetch_data_from_dataframe</code><span class="sig-paren">(</span><em class="sig-param">pstr_row_no</em>, <em class="sig-param">pstr_col_no</em>, <em class="sig-param">pdf_webtable_df</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_fetch_data_from_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  Based on the user input on row and column numbers, will fetch the data from web table data frame
+:param pstr_row_no: Row information
+:type pstr_row_no: string
+:param pstr_col_no: Column information
+:type pstr_col_no: string
+:param pdf_webtable_df: Web table data in data frame
+:type pdf_webtable_df: Data Frame</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_format_row_and_column">
+<code class="sig-name descname">km_format_row_and_column</code><span class="sig-paren">(</span><em class="sig-param">pstr_row_col</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_format_row_and_column" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method format the row or column passed by user to suit data frame format
+:param pstr_row_col: Row or Column string
+:type pstr_row_col: string
+:return: Strings</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_alert_text">
+<code class="sig-name descname">km_get_alert_text</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_alert_text" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method returns the alert text</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_all_window_handles">
+<code class="sig-name descname">km_get_all_window_handles</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_all_window_handles" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method is to get current all  window handles which are present</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_attribute_value">
+<code class="sig-name descname">km_get_attribute_value</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">attribute</em>, <em class="sig-param">explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_attribute_value" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method will return the attribute value for the web element or find the web element using the locator passed and then return the attribute value of the web element</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String/WebElement</em>) – Usercan pass a locator or a web element in this parameter</p></li>
+<li><p><strong>attribute</strong> (<em>String</em>) – This is the attribute for which the value will be returned</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>String</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_attribute_value(“xpath=//<a href="#id9"><span class="problematic" id="id10">*</span></a>[&#64;name=’password’]”,”class”)</div>
+<div class="line">This will find the webelement using the xpath in the first parameter then return the value of the class attribute for that web element</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_browser_logs">
+<code class="sig-name descname">km_get_browser_logs</code><span class="sig-paren">(</span><em class="sig-param">log_type=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_browser_logs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method can be used to get console log on “chrome” browser. We can capture errors like- ‘404’ ‘500’
+:param option: user can pass info or warning as parameter if they want to capture info and warning logs, if they will</p>
+<blockquote>
+<div><p>NOT  pass any parameter, it will capture SEVERE logs</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List of error logs</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_child_element">
+<code class="sig-name descname">km_get_child_element</code><span class="sig-paren">(</span><em class="sig-param">element</em>, <em class="sig-param">locator</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_child_element" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will is responsible to return the childs of the element provided.
+|  If the element has not child based on the locator defined, it will return none.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>element</strong> (<em>WebElement</em><em> (</em><em>Object</em><em>)</em>) – This parameter will be the element on which child elements nee dto be searched.</p></li>
+<li><p><strong>locator</strong> (<em>String - Locator can only be xpath/id/css/classname/tag_name/name/link_text</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id11"><span class="problematic" id="id12">*</span></a>[&#64;id=’username’]</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>WebElement</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_child_element(element=data_grid, locator=”xpath=./[&#64;name=’grid-row-0’]”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_child_elements">
+<code class="sig-name descname">km_get_child_elements</code><span class="sig-paren">(</span><em class="sig-param">element</em>, <em class="sig-param">locator</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_child_elements" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will is responsible to return the first available child of the element provided.
+|  If the element has no children based on the locator defined, it will return none.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>element</strong> (<em>WebElement</em><em> (</em><em>Object</em><em>)</em>) – This parameter will be the element on which child elements nee dto be searched.</p></li>
+<li><p><strong>locator</strong> (<em>String - Locator can only be xpath/id/css/classname/tag_name/name/link_text</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id13"><span class="problematic" id="id14">*</span></a>[&#64;id=’username’]</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>WebElement</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_child_elements(element=data_grid, locator=”xpath=./[&#64;name=’grid-row’]”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_clickable_web_element">
+<code class="sig-name descname">km_get_clickable_web_element</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_clickable_web_element" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will verify if the given locator is present and clickable and return the webelement for the locator.
+|  If the explicit wait time needs to be changed from the default wait time in configuration file, updated time can be passed in parameters which will work only for this element</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String - Locator can only be xpath/id/css/classname</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id15"><span class="problematic" id="id16">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be the default explicit wait time in configuration file and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>WebElement</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_clickable_web_element(“xpath=//<a href="#id17"><span class="problematic" id="id18">*</span></a>[&#64;name=’password’]”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_current_url">
+<code class="sig-name descname">km_get_current_url</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_current_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will return the current url of the browser</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>String</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_current_url()</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_current_window_handle">
+<code class="sig-name descname">km_get_current_window_handle</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_current_window_handle" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method is to get current window handle</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>String</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_locator_strategy">
+<code class="sig-name descname">km_get_locator_strategy</code><span class="sig-paren">(</span><em class="sig-param">pstr_locator_strategy</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_locator_strategy" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method returns the type of the locator, if pstr_locator_strategy is not in given strategies it returns an error</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_locator_strategy</strong> (<em>String</em>) – pstr_locator_strategy is the type of locator(‘XPATH’, ‘ID’, ‘NAME’,’CSS_SELECTOR’, ‘TAG_NAME’, ‘LINK_TEXT’ and ‘PARTIAL_LINK_TEXT’)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_title">
+<code class="sig-name descname">km_get_title</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_title" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will return the title of the browser</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>String</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_title()</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_web_element">
+<code class="sig-name descname">km_get_web_element</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_web_element" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will verify if the given locator is present and return the webelement for the locator.
+|  If the explicit wait time needs to be changed from the default wait time in configuration file, updated time can be passed in parameters which will work only for this element</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String - Locator can only be xpath/id/css/classname</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id19"><span class="problematic" id="id20">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be the default explicit wait time in configuration file and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>WebElement</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_web_element(“xpath=//<a href="#id21"><span class="problematic" id="id22">*</span></a>[&#64;name=’password’]”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_web_elements">
+<code class="sig-name descname">km_get_web_elements</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">implicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_web_elements" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will verify if the given locator is present and return list of all web elements matching this locator
+|  If the explicit wait time needs to be changed from the default wait time in configuration file, updated time can be passed in parameters which will work only for this element</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String - Locator can only be xpath/id/css/classname</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id23"><span class="problematic" id="id24">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>implicit_wait</strong> (<em>Integer</em>) – This parameter will override the default implicit wait mentioned in the base configuration file. If not value is passed then the default implicit wait will e used</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List of WebElements</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_web_elements(“xpath=//<a href="#id25"><span class="problematic" id="id26">*</span></a>[&#64;name=’password’]”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_webtable_all_data_into_list">
+<code class="sig-name descname">km_get_webtable_all_data_into_list</code><span class="sig-paren">(</span><em class="sig-param">pstr_row_locator</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_webtable_all_data_into_list" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method supports 2 features</div>
+<div class="line">1. Fetch all the data into list</div>
+<div class="line">2. Will provide the row and column position numbers, based on the text provided by user</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_row_locator</strong> (<em>string</em>) – Web Table TR xpath</p></li>
+<li><p><strong>pstr_text_to_search</strong> (<em>string</em>) – <a href="#id27"><span class="problematic" id="id28">**</span></a>kwargs parameter , Text to be searched in the webtable</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Webtable output as list &amp; row &amp; column count</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">To Fetch data into List</div>
+<div class="line">self.km_get_webtable_all_data_into_list(“xpath=/html/body/table/tbody/tr”)</div>
+<div class="line">To Fetch row and column  positions based on string</div>
+<div class="line">self.km_get_webtable_all_data_into_list(“xpath=/html/body/table/tbody/tr”, pstr_text_to_search=str_srch_txt)</div>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">Make sure user provide the correct xpath to identify all the rows</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_webtable_data_into_dataframe">
+<code class="sig-name descname">km_get_webtable_data_into_dataframe</code><span class="sig-paren">(</span><em class="sig-param">pstr_row_locator</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_webtable_data_into_dataframe" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method fetch all the data from web table into a data frame format and if user provides the header locator then column names would be header names.</div>
+<div class="line">If user doesn’t provide header locator then column names in the data frame would be integers starting from 0</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pstr_row_locator</strong> (<em>string</em>) – Web Table tr xpath</p></li>
+<li><p><strong>pstr_header_locator</strong> (<em>string</em>) – <a href="#id29"><span class="problematic" id="id30">**</span></a>Kwargs parameter, Table Header locator</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Webtable output as data frame</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">To fetch all rows and columns data</div>
+</div>
+<p>print(obj_wca.km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id31"><span class="problematic" id="id32">*</span></a>[&#64;id=”leftcontainer”]/table/tbody/tr’))
+print(obj_wca.km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id33"><span class="problematic" id="id34">*</span></a>[&#64;id=”leftcontainer”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id35"><span class="problematic" id="id36">*</span></a>[&#64;id=”leftcontainer”]/table/thead/tr/th’))</p>
+<p>Notions to be followed to fetch the data
+1. ‘all’ = To fetch all the data
+2. [] = To fetch the data only specific Rows or columns</p>
+<blockquote>
+<div><p>Example :
+df_row = [1,3,5 ] - Fetch the data for 1st, 3rd and 5th row data only
+df_column= [‘ColumnName1’,’ColumnName5’] - Fetch the data for ColumnName 1 &amp; ColumnName5 only</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><dl class="simple">
+<dt>: = To fetch the data from row to row or column to column</dt><dd><p>Example starting: ending
+df_column=’0:3’ = Fetch  data from column 1 to column 3
+df_row =1:3 - Fetch the data from 1st row to 3rd row</p>
+</dd>
+</dl>
+</li>
+</ol>
+<p>With above notions, below are the examples
+print(km_get_webtable_data_into_dataframe(‘xpath=row locator’))
+print(km_get_webtable_data_into_dataframe(‘xpath=row locator’, pstr_header_locator=’ header locator’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id37"><span class="problematic" id="id38">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id39"><span class="problematic" id="id40">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row= 13, df_column=’all’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id41"><span class="problematic" id="id42">*</span></a>[&#64;id=”x”]/table/tbody/tr’, df_row= 13, df_column=’all’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id43"><span class="problematic" id="id44">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id45"><span class="problematic" id="id46">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row=’all’, df_column=[‘% Change’,’Company’]))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id47"><span class="problematic" id="id48">*</span></a>[&#64;id=”x”]/table/tbody/tr’, df_row=[1,2,4], df_column=’0:3’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id49"><span class="problematic" id="id50">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id51"><span class="problematic" id="id52">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row=[1,2,4], df_column=’0:3’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id53"><span class="problematic" id="id54">*</span></a>[&#64;id=”x”]/table/tbody/tr’, df_row=[1,2,5], df_column=[0,4]))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id55"><span class="problematic" id="id56">*</span></a>[&#64;id=”x”]/table/tbody/tr’, df_row=’all’, df_column=[0,4]))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id57"><span class="problematic" id="id58">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id59"><span class="problematic" id="id60">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row=[1,3], df_column=[‘Company’,’% Change’]))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id61"><span class="problematic" id="id62">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id63"><span class="problematic" id="id64">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row=’all’, df_column=[‘Company’,’% Change’]))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id65"><span class="problematic" id="id66">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id67"><span class="problematic" id="id68">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row=[1,2,4], df_column=’all’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id69"><span class="problematic" id="id70">*</span></a>[&#64;id=”x”]/table/tbody/tr’, df_row=[1,2,4], df_column=’all’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id71"><span class="problematic" id="id72">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id73"><span class="problematic" id="id74">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row=2, df_column=3))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id75"><span class="problematic" id="id76">*</span></a>[&#64;id=”x”]/table/tbody/tr’, df_row=2, df_column=3))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id77"><span class="problematic" id="id78">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id79"><span class="problematic" id="id80">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row=’0:10’, df_column=[‘Company’,’% Change’]))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id81"><span class="problematic" id="id82">*</span></a>[&#64;id=”x”]/table/tbody/tr’, df_row=’0:10’, df_column=[0,3]))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id83"><span class="problematic" id="id84">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id85"><span class="problematic" id="id86">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row= ‘all’, df_column=’0:2’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id87"><span class="problematic" id="id88">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id89"><span class="problematic" id="id90">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row= ‘1:2’, df_column=’0:2’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id91"><span class="problematic" id="id92">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id93"><span class="problematic" id="id94">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row=’1:5’, df_column=’all’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id95"><span class="problematic" id="id96">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id97"><span class="problematic" id="id98">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row= ‘0:10’, df_column=’Company:% Change’))
+print(km_get_webtable_data_into_dataframe(‘xpath=//<a href="#id99"><span class="problematic" id="id100">*</span></a>[&#64;id=”x”]/table/tbody/tr’, pstr_header_locator=’xpath=//<a href="#id101"><span class="problematic" id="id102">*</span></a>[&#64;id=”x”]/table/thead/tr/th’, df_row= ‘all’, df_column=’Company:% Change’))</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">1. Make sure user provide the correct xpath to identify all the rows</div>
+<div class="line">2. Apart from above examples, if you have different requirement, you can verify the data frame methods</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_xpath">
+<code class="sig-name descname">km_get_xpath</code><span class="sig-paren">(</span><em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_get_xpath" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method will create an xpath for the given tag/element type , attribute and its value</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tag</strong> (<em>String</em>) – This is the element type . For eg : a or input or div</p></li>
+<li><p><strong>attribute</strong> (<em>String</em>) – This is the name of the attribute. For eg:value</p></li>
+<li><p><strong>value</strong> (<em>String</em>) – The is the value of the attribute</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>String</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_get_xpath(tag=’a’,attribute=’text’,value=’new’)</div>
+<div class="line">The above line will return</div>
+<div class="line">.//a[text=’new’]</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_go_to_url">
+<code class="sig-name descname">km_go_to_url</code><span class="sig-paren">(</span><em class="sig-param">url</em>, <em class="sig-param">base_url=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_go_to_url" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method will combine the base url and the partial url/ page url and navigate to the resultant url. This method is helpful because the user can store all the urls independent of the platform and the same method can be used for all different environments</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>url</strong> (<em>String</em>) – This is the partial url which will be combined with the base url/the platform.</p></li>
+<li><p><strong>base_url</strong> (<em>String</em>) – This is the url of the platform</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_go_to_url(“web/client?auth=inherit#news/home”,base_url=”<a class="reference external" href="https://sample.com">https://sample.com</a>”)</div>
+<div class="line">PyGlobals().web_client_actions.km_go_to_url(“web/client?auth=inherit#news/home”)</div>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">base_url is an optional url , if it is not passed then the base url will be fetched from configuration file</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_is_element_displayed">
+<code class="sig-name descname">km_is_element_displayed</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_is_element_displayed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will verify if the given locator is present and visible on the page or not for the given time and return True/False based on the result.
+|  If the explicit wait time needs to be changed from the default wait time in configuration file, updated time can be passed in parameters which will work only for this element</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String - Locator can only be xpath/id/css/classname</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id103"><span class="problematic" id="id104">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be the default explicit wait time in configuration file and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Bool</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_is_element_displayed(“xpath=//<a href="#id105"><span class="problematic" id="id106">*</span></a>[&#64;name=’password’]”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_is_element_present">
+<code class="sig-name descname">km_is_element_present</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_is_element_present" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will verify if the given locator is present on the page or not for the given time and return True/False based on the result.
+|  If the wait time need to be updated for a particular element , updated time can be passed in parameters which will work only for this element</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String - Locator can only be xpath/id/css/classname</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id107"><span class="problematic" id="id108">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be the default explicit wait time in configuration file and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Bool</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_is_element_present(“xpath=//<a href="#id109"><span class="problematic" id="id110">*</span></a>[&#64;name=’password’]”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_navigate">
+<code class="sig-name descname">km_navigate</code><span class="sig-paren">(</span><em class="sig-param">url</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_navigate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will navigate to the given url</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>url</strong> (<em>String</em>) – The URL to which the driver needs to be navigated to</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_navigate(“<a class="reference external" href="https://www.ABCnet.com">https://www.ABCnet.com</a>”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_navigate_back">
+<code class="sig-name descname">km_navigate_back</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_navigate_back" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_navigate_forward">
+<code class="sig-name descname">km_navigate_forward</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_navigate_forward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_return_cookie_list">
+<code class="sig-name descname">km_return_cookie_list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_return_cookie_list" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method returns the cookie list created</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_scroll">
+<code class="sig-name descname">km_scroll</code><span class="sig-paren">(</span><em class="sig-param">scroll_type</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_scroll" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method is used to scroll on web pages</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>scroll_type</strong> (<em>String</em>) – User can pass the type of scroll, one of the three values - height,bottom,infinite</p></li>
+<li><p><strong>value</strong><strong>(</strong><strong>optional</strong><strong>)</strong> (<em>Integer</em>) – Determined the length of scroll</p></li>
+<li><p><strong>scroll_pause_time</strong> (<em>Integer</em>) – Time to wait(in secs) before scrolling to the end of page</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_scroll(“height”,value=50) -  to scroll to a particular height</div>
+<div class="line">PyGlobals().web_client_actions.km_scroll(“bottom”) - to scroll to a end of current page , in case where the page length is limited and bottom of page is the bottom of the current page loaded</div>
+<div class="line">PyGlobals().web_client_actions.km_scroll(“infinite”,scroll_pause_time=1) , this is used in cases where page has ajax calls and page loads on reaching the bottom of the current page. scroll_pause_time is the number of seconds user want to wait before scrolling again</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_search_broken_links">
+<code class="sig-name descname">km_search_broken_links</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_search_broken_links" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">A simple function to fetch the total links on the web page and let the</div>
+<div class="line">user know how many links on the function are working fine and which are broken.</div>
+<div class="line"><br /></div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>search_broken_links</strong> (<em>None</em>) – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>int (no. of broken links in a page)</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_search_broken_links()</div>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">The function fetches the current URL the driver is on.</div>
+<div class="line">Fetches all the ‘Anchor links’ and ‘Images’ on the current page and get their responses to find if all the links on the page are working fine or not</div>
+</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="line-block">
+<div class="line">Make sure when you call the function the page itself is working fine and isn’t showing any errors</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_select_dropdown_value">
+<code class="sig-name descname">km_select_dropdown_value</code><span class="sig-paren">(</span><em class="sig-param">plocator</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_select_dropdown_value" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method is to used to select values from drop downs . Please note this method will work for elements with “select” tag</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>plocator</strong> (<em>String</em>) – plocator is the locator of the dropdown</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_select_dropdown_value(locator,visible_text=’text’)</div>
+<div class="line">PyGlobals().web_client_actions.km_select_dropdown_value(locator,value=’text’)</div>
+<div class="line">PyGlobals().web_client_actions.km_select_dropdown_value(locator,index=1)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_send_text_in_alert">
+<code class="sig-name descname">km_send_text_in_alert</code><span class="sig-paren">(</span><em class="sig-param">text</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_send_text_in_alert" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method enters given text in alert box</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_text</strong> (<em>String</em>) – pstr_text is the text which needs to be entered in alert box</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_set_implicit_wait">
+<code class="sig-name descname">km_set_implicit_wait</code><span class="sig-paren">(</span><em class="sig-param">wait_time</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_set_implicit_wait" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will set the implicit wait for the driver . If this method is not called with any value then the default implicit wait will be the default_implicit_wait mentioned in the configuration file .  The parameter will accept wait time in seconds .
+|  Note: This method will not act like a sleep method . This is just to change the value of implicit wait</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>wait_time</strong> (<em>Integer</em>) – This will be the value set as the implicit wait time(in seconds) for the driver</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_set_implicit_wait(30)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_switch_to_default_content">
+<code class="sig-name descname">km_switch_to_default_content</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_switch_to_default_content" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method is to switch back to default frame</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_switch_to_frame">
+<code class="sig-name descname">km_switch_to_frame</code><span class="sig-paren">(</span><em class="sig-param">pstr_reference</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_switch_to_frame" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method is to  switch to frame based on reference</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_reference</strong> (<em>String</em>) – pstr_reference is the locator of frame  of which the focus switch into</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_switch_to_frame(‘frame_name’) —&gt; by frame name</div>
+<div class="line">PyGlobals().web_client_actions.km_switch_to_frame(1) —&gt; by index</div>
+<div class="line">PyGlobals().web_client_actions.km_switch_to_frame(web_element) —&gt; by passing frame web element</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_switch_to_last_open_window">
+<code class="sig-name descname">km_switch_to_last_open_window</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_switch_to_last_open_window" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  this method is used to switch the user to last open window</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_switch_to_window">
+<code class="sig-name descname">km_switch_to_window</code><span class="sig-paren">(</span><em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_switch_to_window" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">this method is to  switch to window by window handle or windows title</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>window_handle</strong> (<em>String</em>) – window_handle is the handle id of the window user wants to switch to</p></li>
+<li><p><strong>title</strong> (<em>String / Title of the window</em>) – title is the title of the window user wants to switch to</p></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_switch_to_window(window_handle=’value of window handle’)</div>
+<div class="line">PyGlobals().web_client_actions.km_switch_to_window(title=’the page title’)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_type">
+<code class="sig-name descname">km_type</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">text</em>, <em class="sig-param">pbool_clear=False</em>, <em class="sig-param">explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will type the given value on the locator provided . It will find the element for the locator given , convert it into a web element then wait for it to be clickable , the time of wait will depend on the value passed in the explicit wait . It will then click on the element and finally type in the value</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id111"><span class="problematic" id="id112">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>text</strong> (<em>String</em>) – This parameter will contain the value to be typed into the web element</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be none and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+<li><p><strong>pbool_clear</strong> (<em>Boolean</em>) – This parameter is to use clear feature,if this is set to True respective field content will be cleared,By default this is set to False and pbool_clear only accepts to boolean value</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_type(“xpath=//a[&#64;class=’username’]”,”your_username”)</div>
+<div class="line">PyGlobals().web_client_actions.km_type(“xpath=//a[&#64;class=’username’]”,”your_username”,30)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_wait_for_invisibility_web_element">
+<code class="sig-name descname">km_wait_for_invisibility_web_element</code><span class="sig-paren">(</span><em class="sig-param">locator</em>, <em class="sig-param">explicit_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_wait_for_invisibility_web_element" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description:
+|  This method will wait until the locator passed is invisible and return True or False based on wether th elemnet is invisible or not
+|  If the explicit wait time needs to be changed from the default wait time in configuration file, updated time can be passed in parameters which will work only for this element</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locator</strong> (<em>String - Locator can only be xpath/id/css/classname</em>) – This parameter will contain the locator in a fixed format which is , locatortype=locator . For eg. id=username or xpath=.//<a href="#id113"><span class="problematic" id="id114">*</span></a>[&#64;id=’username’]</p></li>
+<li><p><strong>explicit_wait</strong> (<em>Integer</em>) – This parameter will by default be the default explicit wait time in configuration file and the number passed in it would be the explicit wait(in seconds) for the particular element</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>WebElement</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">PyGlobals().web_client_actions.km_wait_for_invisibility_web_element(“xpath=//<a href="#id115"><span class="problematic" id="id116">*</span></a>[&#64;name=’password’]”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_wait_for_page_readyState">
+<code class="sig-name descname">km_wait_for_page_readyState</code><span class="sig-paren">(</span><em class="sig-param">pstr_wait=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_wait_for_page_readyState" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_webtable_header_into_list">
+<code class="sig-name descname">km_webtable_header_into_list</code><span class="sig-paren">(</span><em class="sig-param">pstr_header_locator</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_actions.WebClientActions.km_webtable_header_into_list" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method reads the headers from web table and return them as list</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pstr_header_locator</strong> – header locator</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+</dl>
+<dl>
+<dt>Examples:</dt><dd><div class="line-block">
+<div class="line">km_webtable_header_into_list(pstr_header_locator=”xpath=/html/body/table/tbody/tr/th”)</div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-kosmos.elements.ui_ux.web_client.web_client_enum">
+<span id="web-client-web-client-enum"></span><h2>web_client.web_client_enum<a class="headerlink" href="#module-kosmos.elements.ui_ux.web_client.web_client_enum" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_enum.Browser">
+<em class="property">class </em><code class="sig-prename descclassname">kosmos.elements.ui_ux.web_client.web_client_enum.</code><code class="sig-name descname">Browser</code><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_enum.Browser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></p>
+<p>An enumeration.</p>
+<dl class="attribute">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_enum.Browser.CHROME">
+<code class="sig-name descname">CHROME</code><em class="property"> = 'chrome'</em><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_enum.Browser.CHROME" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_enum.Browser.FIREFOX">
+<code class="sig-name descname">FIREFOX</code><em class="property"> = 'firefox'</em><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_enum.Browser.FIREFOX" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_enum.Browser.HEADLESS_CHROME">
+<code class="sig-name descname">HEADLESS_CHROME</code><em class="property"> = 'headless'</em><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_enum.Browser.HEADLESS_CHROME" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="kosmos.elements.ui_ux.web_client.web_client_enum.Browser.INTERNETEXPLORER">
+<code class="sig-name descname">INTERNETEXPLORER</code><em class="property"> = 'internet explorer'</em><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_client_enum.Browser.INTERNETEXPLORER" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-kosmos.elements.ui_ux.web_client.web_driver_factory">
+<span id="web-client-web-driver-factory"></span><h2>web_client.web_driver_factory<a class="headerlink" href="#module-kosmos.elements.ui_ux.web_client.web_driver_factory" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="kosmos.elements.ui_ux.web_client.web_driver_factory.WebDriverFactory">
+<em class="property">class </em><code class="sig-prename descclassname">kosmos.elements.ui_ux.web_client.web_driver_factory.</code><code class="sig-name descname">WebDriverFactory</code><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_driver_factory.WebDriverFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This class contains methods related to selenium driver . Initiation of driver and capabilities of browsers is handled here</div>
+</div>
+</dd>
+</dl>
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_driver_factory.WebDriverFactory.km_create_driver">
+<code class="sig-name descname">km_create_driver</code><span class="sig-paren">(</span><em class="sig-param">pbool_use_grid=None</em>, <em class="sig-param">pstr_selenium_grid_ip=None</em>, <em class="sig-param">pstr_selenium_grid_port=None</em>, <em class="sig-param">browser='chrome'</em>, <em class="sig-param">capabilities=None</em><span class="sig-paren">)</span><a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_driver_factory.WebDriverFactory.km_create_driver" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Description:</dt><dd><div class="line-block">
+<div class="line">This method will return a web driver based on the browser type passed while initiating the WebDriverFactory class .</div>
+</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>WebDriver</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">The type of driver (local or remote) is defined from “use_grid” key in config.yml . If the user using local driver by setting use_grid to False , then path of the  driver needs to be set in chrome_driver key in config.yml</div>
+</div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="kosmos.elements.ui_ux.web_client.web_driver_factory.WebDriverFactory.km_get_driver">
+<code class="sig-name descname">km_get_driver</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; selenium.webdriver.remote.webdriver.WebDriver<a class="headerlink" href="#kosmos.elements.ui_ux.web_client.web_driver_factory.WebDriverFactory.km_get_driver" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="kosmos.elements.ui_ux.thick_client.html" class="btn btn-neutral float-left" title="kosmos.elements.ui_ux.thick_client" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, scroogemcduck612
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

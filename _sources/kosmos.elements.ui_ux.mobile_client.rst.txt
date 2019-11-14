@@ -1,0 +1,19 @@
+kosmos.elements.ui\_ux.mobile\_client
+=============================================
+
+
+mobile\_client\_actions
+--------------------------------------------------------------------
+
+.. automodule:: kosmos.elements.ui_ux.mobile_client.mobile_client_actions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+mobile\_driver\_factory
+--------------------------------------------------------------------
+
+.. automodule:: kosmos.elements.ui_ux.mobile_client.mobile_driver_factory
+   :members:
+   :undoc-members:
+   :show-inheritance:

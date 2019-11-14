@@ -1,0 +1,20 @@
+kosmos.elements.ui\_ux.thick\_client
+============================================
+
+
+thick\_client\_actions
+------------------------------------------------------------------
+
+.. automodule:: kosmos.elements.ui_ux.thick_client.thick_client_actions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+thick\_client\_application\_handler
+-------------------------------------------------------------------------------
+
+.. automodule:: kosmos.elements.ui_ux.thick_client.thick_client_application_handler
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
